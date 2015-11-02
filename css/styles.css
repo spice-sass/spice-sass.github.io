@@ -1945,207 +1945,198 @@ button.round-submit[class^="block-icon-"]:after, button.round-submit[class*=" bl
   clear: both;
 }
 
-.grid-col-1 {
-  float: left;
-  position: relative;
-  width: 6.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-1 {
-  margin-left: 8.5%;
-}
-
-.grid-col-outdent-1 {
-  margin-left: auto;
-  margin-right: 8.5% !important;
-}
-
-.grid-col-2 {
-  float: left;
-  position: relative;
-  width: 15%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-2 {
-  margin-left: 17%;
-}
-
-.grid-col-outdent-2 {
-  margin-left: auto;
-  margin-right: 17% !important;
-}
-
-.grid-col-3 {
-  float: left;
-  position: relative;
-  width: 23.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-3 {
-  margin-left: 25.5%;
-}
-
-.grid-col-outdent-3 {
-  margin-left: auto;
-  margin-right: 25.5% !important;
-}
-
-.grid-col-4 {
-  float: left;
-  position: relative;
-  width: 32%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-4 {
-  margin-left: 34%;
-}
-
-.grid-col-outdent-4 {
-  margin-left: auto;
-  margin-right: 34% !important;
-}
-
-.grid-col-5 {
-  float: left;
-  position: relative;
-  width: 40.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-5 {
-  margin-left: 42.5%;
-}
-
-.grid-col-outdent-5 {
-  margin-left: auto;
-  margin-right: 42.5% !important;
-}
-
-.grid-col-6 {
-  float: left;
-  position: relative;
-  width: 49%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-6 {
-  margin-left: 51%;
-}
-
-.grid-col-outdent-6 {
-  margin-left: auto;
-  margin-right: 51% !important;
-}
-
-.grid-col-7 {
-  float: left;
-  position: relative;
-  width: 57.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-7 {
-  margin-left: 59.5%;
-}
-
-.grid-col-outdent-7 {
-  margin-left: auto;
-  margin-right: 59.5% !important;
-}
-
-.grid-col-8 {
-  float: left;
-  position: relative;
-  width: 66%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-8 {
-  margin-left: 68%;
-}
-
-.grid-col-outdent-8 {
-  margin-left: auto;
-  margin-right: 68% !important;
-}
-
-.grid-col-9 {
-  float: left;
-  position: relative;
-  width: 74.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-9 {
-  margin-left: 76.5%;
-}
-
-.grid-col-outdent-9 {
-  margin-left: auto;
-  margin-right: 76.5% !important;
-}
-
-.grid-col-10 {
-  float: left;
-  position: relative;
-  width: 83%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-10 {
-  margin-left: 85%;
-}
-
-.grid-col-outdent-10 {
-  margin-left: auto;
-  margin-right: 85% !important;
-}
-
-.grid-col-11 {
-  float: left;
-  position: relative;
-  width: 91.5%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-11 {
-  margin-left: 93.5%;
-}
-
-.grid-col-outdent-11 {
-  margin-left: auto;
-  margin-right: 93.5% !important;
-}
-
-.grid-col-12 {
-  float: left;
-  position: relative;
-  width: 100%;
-  margin-right: 2%;
-}
-
-.grid-col-indent-12 {
-  margin-left: 102%;
-}
-
-.grid-col-outdent-12 {
-  margin-left: auto;
-  margin-right: 102% !important;
-}
-
-[class*="grid-col"]:last-child {
+[class*="grid-col"] {
+  margin-left: 0;
   margin-right: 0;
+  width: 100%;
 }
 
-@media screen and (max-width: 550px) {
-  [class*="grid-col"] {
-    margin-left: 0;
-    margin-right: 0;
+@media (min-width: 550px) {
+  .grid-col-1 {
+    float: left;
+    position: relative;
+    width: 6.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-1 {
+    margin-left: 8.5%;
+  }
+
+  .grid-col-outdent-1 {
+    margin-left: auto;
+    margin-right: 8.5% !important;
+  }
+
+  .grid-col-2 {
+    float: left;
+    position: relative;
+    width: 15%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-2 {
+    margin-left: 17%;
+  }
+
+  .grid-col-outdent-2 {
+    margin-left: auto;
+    margin-right: 17% !important;
+  }
+
+  .grid-col-3 {
+    float: left;
+    position: relative;
+    width: 23.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-3 {
+    margin-left: 25.5%;
+  }
+
+  .grid-col-outdent-3 {
+    margin-left: auto;
+    margin-right: 25.5% !important;
+  }
+
+  .grid-col-4 {
+    float: left;
+    position: relative;
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-4 {
+    margin-left: 34%;
+  }
+
+  .grid-col-outdent-4 {
+    margin-left: auto;
+    margin-right: 34% !important;
+  }
+
+  .grid-col-5 {
+    float: left;
+    position: relative;
+    width: 40.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-5 {
+    margin-left: 42.5%;
+  }
+
+  .grid-col-outdent-5 {
+    margin-left: auto;
+    margin-right: 42.5% !important;
+  }
+
+  .grid-col-6 {
+    float: left;
+    position: relative;
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-6 {
+    margin-left: 51%;
+  }
+
+  .grid-col-outdent-6 {
+    margin-left: auto;
+    margin-right: 51% !important;
+  }
+
+  .grid-col-7 {
+    float: left;
+    position: relative;
+    width: 57.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-7 {
+    margin-left: 59.5%;
+  }
+
+  .grid-col-outdent-7 {
+    margin-left: auto;
+    margin-right: 59.5% !important;
+  }
+
+  .grid-col-8 {
+    float: left;
+    position: relative;
+    width: 66%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-8 {
+    margin-left: 68%;
+  }
+
+  .grid-col-outdent-8 {
+    margin-left: auto;
+    margin-right: 68% !important;
+  }
+
+  .grid-col-9 {
+    float: left;
+    position: relative;
+    width: 74.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-9 {
+    margin-left: 76.5%;
+  }
+
+  .grid-col-outdent-9 {
+    margin-left: auto;
+    margin-right: 76.5% !important;
+  }
+
+  .grid-col-10 {
+    float: left;
+    position: relative;
+    width: 83%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-10 {
+    margin-left: 85%;
+  }
+
+  .grid-col-outdent-10 {
+    margin-left: auto;
+    margin-right: 85% !important;
+  }
+
+  .grid-col-11 {
+    float: left;
+    position: relative;
+    width: 91.5%;
+    margin-right: 2%;
+  }
+
+  .grid-col-indent-11 {
+    margin-left: 93.5%;
+  }
+
+  .grid-col-outdent-11 {
+    margin-left: auto;
+    margin-right: 93.5% !important;
+  }
+
+  .grid-col-12 {
+    float: left;
+    position: relative;
     width: 100%;
+    margin-right: 2%;
+  }
+
+  [class*="grid-col"]:last-child {
+    margin-right: 0;
   }
 }
 @font-face {
@@ -2950,101 +2941,6 @@ input[type=range]::-ms-track {
   margin-bottom: 0;
 }
 
-table {
-  width: 100%;
-  display: table;
-  border-collapse: separate;
-}
-table tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-table tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
-}
-table th {
-  font-weight: 600;
-}
-table th, table td {
-  padding: 10px;
-  line-height: 1.5;
-  vertical-align: top;
-  display: table-cell;
-}
-
-nav.vertical {
-  border-radius: 5px;
-}
-nav.vertical ul {
-  text-align: left;
-}
-nav.vertical ul li {
-  display: list-item;
-  position: relative;
-}
-nav.vertical ul li a {
-  font-size: 0.9em;
-  line-height: 50px;
-  display: block;
-  padding: 0 20px;
-}
-nav.vertical ul li.active {
-  -webkit-box-shadow: inset 4px 0 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 4px 0 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 4px 0 0 rgba(0, 0, 0, 0.1);
-}
-nav.vertical .subnav {
-  margin-bottom: 30px;
-}
-nav.vertical .subnav li a {
-  font-size: 0.8em;
-  padding-left: 30px;
-  line-height: 35px;
-}
-nav.vertical .subnav li.active a {
-  color: #e7534f;
-  -webkit-box-shadow: inset 4px 0 0 #e7534f;
-  -moz-box-shadow: inset 4px 0 0 #e7534f;
-  box-shadow: inset 4px 0 0 #e7534f;
-}
-
-nav.horizontal {
-  display: inline-block;
-  border-radius: 0;
-}
-nav.horizontal ul {
-  text-align: left;
-}
-nav.horizontal ul li {
-  position: relative;
-  display: inline-block;
-}
-nav.horizontal ul li .subnav {
-  height: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 50px;
-  width: 300px;
-}
-nav.horizontal ul li .subnav li {
-  display: list-item;
-}
-nav.horizontal ul li .subnav li.active a {
-  color: #e7534f;
-}
-nav.horizontal ul li:hover .subnav {
-  height: auto;
-}
-nav.horizontal ul li a {
-  font-size: 0.9em;
-  line-height: 50px;
-  display: block;
-  padding: 0 20px;
-}
-
 .masonry {
   margin: 1em 0;
   -webkit-column-count: 1;
@@ -3116,6 +3012,7 @@ nav.horizontal ul li a {
   }
 }
 header.sticky {
+  line-height: 50px;
   position: fixed;
   top: 0;
   height: 50px;
@@ -3137,7 +3034,6 @@ header.sticky .container.main {
   z-index: 999;
 }
 header.sticky #logo {
-  top: 12px;
   position: absolute;
   letter-spacing: 0;
   margin-right: 20px;
@@ -3152,6 +3048,7 @@ header.sticky button {
 }
 header.sticky nav {
   margin-right: 20px;
+  padding-left: 20px;
   -webkit-transition: all,ease,0.5s;
   -moz-transition: all,ease,0.5s;
   -o-transition: all,ease,0.5s;
@@ -3348,7 +3245,18 @@ header.sticky .line-icon-menu {
   -o-transition: all,ease,0.4s;
   transition: all,ease,0.4s;
 }
+#sidebar ul {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+#sidebar ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 40px;
+}
 #sidebar .subnav li a {
+  padding-left: 30px;
   -webkit-transition: all,ease,0.4s;
   -moz-transition: all,ease,0.4s;
   -o-transition: all,ease,0.4s;
