@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" type="text/css" media="all" href="css/styles.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/themes/light.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
   <body>
     <header class="sticky slide-in-down">
@@ -28,7 +29,7 @@
 
 		
 
-		<p id="version" class="align-right slide-in-left">0.4.6</p>
+		<p id="version" class="align-right slide-in-left">0.5.3</p>
 
 	</div>
 
@@ -37,52 +38,79 @@
   	<section class="fullscreen stack" id="pane-1">
 		
 		<div class="centre-y text-centre">
-			<h1 id="logo" class="leckerli-one fade-in" style="text-transform:none;font-weight:300;letter-spacing:0;">Spice</h1>
-			<h2 id="strap" class="roboto-slab slide-in-right contrast">Add a little spice to your UI</h2>
-			<a href="/documentation#getting-started" class="button large flat-primary block-icon-open-book slide-in-left">View Docs</a>
-			<p class="slide-in-right">0.4.6</p>
+			<div id="main-logo">
+			</div>
+			<h2 id="strap" class="roboto-slab slide-in-up">The sass library for tasty web interfaces</h2>
+			<a href="#installation" class="button flat-secondary block-icon-download slide-in-right">Installation</a>
+			<a href="/documentation" class="button flat-primary block-icon-open-book slide-in-left">View Docs</a>
+			<p class="slide-in-up">Version 0.5.3</p>
 		</div>
 		
 	</section>
 
-	<section class="fullscreen stack">
+	<section id="preview">
 		
-		<div class="centre-y">
+	</section>
+
+	<section class="stack" id="installation">
 			
 			<div class="container">
 
 				<div class="grid-row">
 
-					<div class="grid-col-4 feature card">
+					<div class="grid-col-8 grid-col-indent-2">
 
-						<h3 class="text-centre">Flexible</h3>
-						<p class="justify">@includes allows you to quicky add what you need to your interface</p>
+						<h2><span>Installation &amp; Usage</span></h2>
+						<p>Spice is available for download via npm or bower</p>
+
+						<h5>npm</h5>
+						<p class="code-demo">
+							npm install spice-sass
+						</p>
+
+						<h5>Bower</h5>
+						<p class="code-demo">
+							bower install spice-sass
+						</p>
+
+						<p>
+							Once installed you can import spice into your main scss file.
+							<strong>Note:</strong> the import must be relative to your 
+							node_modules/bower_components folder dependent on your chosen
+							method of installation. E.g. for a node installation:
+						</p>
+
+						<p class="code-demo">
+							<span class="import">@import</span>
+							<span class="string"> "../node_modules/spice-sass/src/spice";</span>
+						</p>
 
 					</div>
-
-					<div class="grid-col-4 feature card">
-
-						<h3 class="text-centre">Simple</h3>
-						<p class="justify">A quick an easy to learn api allows developers to create slick interfaces and interactions really quicky.</p>
-
-					</div>
-
-					<div class="grid-col-4 feature card">
-
-						<h3 class="text-centre">Powerful</h3>
-						<p class="justify">Add a whole grid system or keyframe animations with just a single line of sass</p>
-
-					</div>
-
+	
 				</div>
-
-			</div>
 
 		</div>
 
 	</section>
+	<footer id="main-footer">
+	
+	<div class="container">
+		
+		<div class="grid-row">
+
+			<p class="align-left">Designed and built by Dan Osborne. Code licensed under <a href="https://github.com/dannyoz/includes/blob/master/MIT-LICENSE.txt">MIT</a></p>
+			<p class="align-right"><a href="https://github.com/dannyoz/includes/">View on Github</a></p>
+
+		</div>
+
+		<img src="https://api.travis-ci.org/spice-sass/spice.svg" />
+	</div>
+
+</footer>
 
     
-  	
+	<script src="js/react.min.js"></script>
+	<script src="js/home.js"></script>
+
   </body>
 </html>
