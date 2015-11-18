@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	
+		<title>Default title</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="/css/views/examples/dash/dash.css">
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+  <body>
+  	<header class="sticky">
+	
+	<div class="container transition main ">
+
+		
+		<div id="logo" class="slide-in-right">
+			<a href="/">
+				<img src="/img/spice-logo.svg" width="55" />
+			</a>
+		</div>
+		
+
+		<nav class="horizontal main shift">
+
+			<ul>
+				<li >
+					<a href="/documentation"><i class="line-icon-paper font20"></i> <span>Documentation</span></a>
+				</li>
+				<li >
+					<a href="/examples"><i class="line-icon-thermometer font20"></i> <span>Examples</span></a>
+				</li>
+			</ul>
+
+		</nav>
+
+		
+			<div id="theme-switcher"></div>
+		
+
+	</div>
+
+</header>
+  	<div id="example-body">
+    	
+<section id="dashboard">
+	
+	<div id="side-bar">
+
+		<div id="dash-logo">
+			<h1>Dash</h1>
+		</div>
+
+		<div id="user-bar">
+			
+			<img src="http://www.placecage.com/g/60/60" alt="Nicolas">
+			<h2>Nicolas</h2>
+			<h3>Creative consultant</h3>
+
+		</div>
+		
+		<ul class="vertical-nav">
+			<li>
+				<div class="badge blue">5 new</div>
+				<a href="#"><i class="block-icon-mail"></i>Messages</a>
+			</li>
+			<li>
+				<a href=""><i class="block-icon-calendar"></i>Calendar</a>
+			</li>
+			<li class="active">
+				<a href="#"><i class="block-icon-line-graph"></i>Stats</a>
+			</li>
+			<li>
+				<div class="badge blue">17</div>
+				<a href=""><i class="block-icon-list"></i>To-do list</a>
+				<ul class="subnav">
+					<li class="slide-in-right"><a href="">Lorem.</a></li>
+					<li class="slide-in-right"><a href="">Vel?</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href=""><i class="block-icon-cog"></i>Settings</a>
+				<ul class="subnav">
+					<li class="slide-in-right"><a href="">Lorem.</a></li>
+					<li class="slide-in-right"><a href="">Vel?</a></li>
+					<li class="slide-in-right"><a href="">Ea.</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</div>
+
+	<div id="main">
+
+		<header>
+
+			<form action="#" class="lined">
+				<input type="search" placeholder="search">
+			</form>
+
+		</header>
+		
+		<div id="chart" class="clearfix">
+
+			<div class="panel wide">
+
+				<div class="panel-header">
+					<h1>Welcome back Dave...</h1>
+					<p>You have <span>5</span> unread messages.</p>
+				</div>
+
+				
+				<div class="notification">
+					
+					<span class="index">1</span>
+					<p class="from">Silvia Phelps</p>
+					<p class="msg">A note about the deployments we...</p>
+
+				</div>
+
+				<div class="notification">
+					
+					<span class="index">2</span>
+					<p class="from">John Wilks</p>
+					<p class="msg">Great feedback on the new template...</p>
+
+				</div>
+
+				<div class="notification">
+					
+					<span class="index">3</span>
+					<p class="from">Jack Sutton</p>
+					<p class="msg">Great feedback on the new template</p>
+
+				</div>
+				
+			</div>
+			
+			<div class="panel narrow">
+				
+		    	<div ng-doughnut="{val:87,size:250,padding:30,className:'blue'}"></div>
+
+			</div>
+
+		</div>		
+
+
+		<div id="stats" class="clearfix">
+			
+
+			<div class="stat">
+				
+				<span class="badge turquoise">Tuesday</span>
+				<p class="figure">1,459</p>
+				<p class="summary turquoise-contrast">Unique visits</p>
+
+			</div>
+
+			<div class="stat">
+				
+				<span class="badge turquoise">Last 7 days</span>
+				<p class="figure">34,459</p>
+				<p class="summary">Unique visits</p>
+
+			</div>
+
+			<div class="stat">
+				
+				<p class="figure">1,459</p>
+				<p class="summary">Unique visits</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+    </div>
+    
+  	
+  	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-70173010-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+  </body>
+</html>
