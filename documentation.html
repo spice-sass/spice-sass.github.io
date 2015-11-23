@@ -11,7 +11,7 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 </head>
   <body>
-    <header class="sticky">
+    <header class="sticky wide-logo">
 	
 	<div class="container transition main stretch">
 
@@ -113,11 +113,23 @@
 								</li>
 							
 								<li>
+									<a href="#slideOut"><span>@include</span> slideOut;</a>
+								</li>
+							
+								<li>
 									<a href="#rotateIn"><span>@include</span> rotateIn;</a>
 								</li>
 							
 								<li>
 									<a href="#pulse"><span>@include</span> pulse;</a>
+								</li>
+							
+								<li>
+									<a href="#magic"><span>@include</span> magic;</a>
+								</li>
+							
+								<li>
+									<a href="#elastic"><span>@include</span> elastic;</a>
 								</li>
 							
 								<li>
@@ -190,7 +202,7 @@
 								</li>
 							
 								<li>
-									<a href="#iconTooltip"><span>@include</span> iconTooltip;</a>
+									<a href="#tooltip"><span>@include</span> tooltip;</a>
 								</li>
 							
 						</ul>
@@ -463,6 +475,12 @@
 						</div>
 						
 						<div class="mixin">
+							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> slideOut;</h2>
+							<div><p>Predefined class and keyframes for a slide out transform animation. Working in the exact opposite way to the <a href="#slideIn">Slide in</a> animation. Arguments allow you to change the direction, slide distance, easing, duration &amp; nth-child(n) stagger count.</p></div>
+							<hr />
+						</div>
+						
+						<div class="mixin">
 							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> rotateIn;</h2>
 							<div><p>Predefined class and keyframes for a rotate in style animation. This is a good example of the power of the @include animation; &amp; @include transformKeyframes; mixins. Arguments allow you to change the rotate angle, easing, duration &amp; nth-child(n) stagger count.</p></div>
 							<hr />
@@ -471,6 +489,18 @@
 						<div class="mixin">
 							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> pulse;</h2>
 							<div><p>Predefined class and keyframes for a looping pulse animation. Can be used as a subtle attention grabber for buttons.</p></div>
+							<hr />
+						</div>
+						
+						<div class="mixin">
+							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> magic;</h2>
+							<div><p>Predefined class and keyframes for a looping magical reveal. Can be used as a subtle attention grabber for buttons or other elements.</p></div>
+							<hr />
+						</div>
+						
+						<div class="mixin">
+							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> elastic;</h2>
+							<div><p>Predefined class and keyframes for a looping elastic animation. Can be used as a subtle attention grabber for buttons or other elements.</p></div>
 							<hr />
 						</div>
 						
@@ -571,8 +601,8 @@
 						</div>
 						
 						<div class="mixin">
-							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> iconTooltip;</h2>
-							<div><p>Add classes for a css tooltip. Argument allow you to control the colour and width of the icon and the width of the tooltip.</p></div>
+							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> tooltip;</h2>
+							<div><p>Generate styles for a css tooltip triggered on hover. Arguments allow you to contol the direction, shift distance from trigger element, background colour, font size, width, padding and arrow size. <strong>Note:</strong> the font colour will be automatically generated using the <a href="#contrast">contrast</a> function using the background colour as it's base value.</p></div>
 							<hr />
 						</div>
 						
@@ -598,7 +628,7 @@
 						
 						<div class="mixin">
 							<h2 class="red"><span class="leckerli-one" style="text-transform:none;font-weight:300;letter-spacing:0;">@include</span> scrollbar;</h2>
-							<div><p>Create custon scrollbars for webkit browsers</p></div>
+							<div><p>Create modern looking flat UI scrollbars with this mixin. <strong>Note:</strong> This is supported by webkit browsers only. Un supported browsers will fall-back to the default srcollbar. Arguments allow you to control colour, size and contrast values. To see an example, please view this documentation page in Chrome or Safari. This mixin is being used by both the sidebar and main documentation elements.</p></div>
 							<hr />
 						</div>
 						
